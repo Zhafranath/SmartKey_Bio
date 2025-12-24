@@ -31,26 +31,6 @@ Build Tool: Vite
 
 Deployment: Vercel
 
-Version Control: Git & GitHub
-
-📂 Project Structure
-smartkey-bio/
-├─ public/
-│  ├─ team/            # Team member images
-│  ├─ assets/          # Images, videos, sounds
-│  └─ vite.svg
-├─ src/
-│  ├─ components/      # Reusable UI components
-│  ├─ pages/           # Application pages (About, Home, etc.)
-│  ├─ data/            # Static data used in the app
-│  ├─ App.jsx
-│  └─ main.jsx
-├─ index.html
-├─ package.json
-├─ tailwind.config.js
-├─ vite.config.js
-└─ README.md
-
 🚀 Getting Started (Local Development)
 1️⃣ Clone the repository
 git clone https://github.com/Zhafranath/smartkey-bio.git

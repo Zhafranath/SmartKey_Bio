@@ -55,33 +55,6 @@ Preview the production build locally:
 
 npm run preview
 
-🌍 Deployment
-
-This project is deployed using Vercel.
-
-Automatic deployment on every push to the main branch
-
-Static assets are served from the public/ directory
-
-Optimized for fast global delivery via CDN
-
-Live Demo:
-👉 https://smart-key-bio.vercel.app
-
-👥 Team
-
-Elifa Billien Revita — Member 1
-
-Karima Zuleika Putri Noor — Tech Member
-
-Muhamad Budiwan, S.Si., M.Pd., Gr. — Project Supervisor
-
-📌 Notes & Best Practices
-
-Static assets in public/ are accessed using absolute paths (e.g. /team/elifa.png)
-
-No backend or database is used — all data is static and bundled with the project
-
 Designed primarily for educational and demonstrational purposes
 
 📄 License

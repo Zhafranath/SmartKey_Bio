@@ -490,7 +490,7 @@ const Footer = () => {
 
           {/* KOLOM 2: OUR PARTNERS (5 bagian) */}
           <div className="md:col-span-5 flex flex-col items-start md:items-end space-y-6">
-            <h4 className="text-white font-bold text-xs uppercase tracking-[0.2em]">Our Partners</h4>
+            <h4 className="text-white font-bold text-xs uppercase tracking-[0.2em]">Presented to</h4>
             <div className="bg-white/5 p-5 md:p-6 rounded-[2.5rem] border border-white/10 backdrop-blur-md flex flex-row items-center gap-6 md:gap-10 shadow-xl">
               <img src="/Logo-school.png" alt="School" className="h-10 md:h-12 w-auto object-contain brightness-110" />
               <div className="w-px h-10 bg-white/20" />

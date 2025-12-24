@@ -35,7 +35,6 @@ const TeamMember = ({ name, role, image, sentence, index }) => (
           alt={name} 
           className="w-full h-full object-cover relative z-10"
           whileHover={{ scale: 1.05 }}
-          onError={(e) => { e.target.src = `https://api.dicebear.com/7.x/avataaars/svg?seed=${name}` }}
         />
       </div>
 

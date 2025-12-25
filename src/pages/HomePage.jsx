@@ -173,7 +173,7 @@ const HomePage = () => {
                      </div>
                    ))}
                  </div>
-                 <span className="text-slate-500 text-sm font-medium">+10K Species</span>
+                 <span className="text-slate-500 text-sm font-medium">+100 Species</span>
               </div>
             </div>
           </div>

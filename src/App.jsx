@@ -11,12 +11,16 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 
 // PENTING: Pastikan path file ini benar sesuai struktur folder Anda
-import { taksonomiData as speciesDatabase } from './data/taxonomyData';
+import { newTaksonomiData as speciesDatabase } from './data/taxonomyData';
 import { branchingLogic } from './data/branchingData';
 import { navigationStructure } from './data/navigationStructurenew';
 import IdentificationPage from './pages/IdentificationPage';
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage';
+import ConservationPage from './pages/ConservationPage';
+import EndangeredPage from "./pages/EndangeredPage";
+import HabitatEcosystemPage from "./pages/HabitatPage";
+import BiodiversitasPage from './pages/BiodiversitasPage';
 
 const levelOrder = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species'];
 const normalize = (str) => str.toLowerCase().replace(/\s+/g, "_");
@@ -441,8 +445,11 @@ const Navbar = () => {
         <div className="flex items-center gap-4 md:gap-6 font-medium">
           <Link to="/" className="hover:text-nature-200 transition hidden md:block">Home</Link>
           <Link to="/identify" className="hover:text-nature-200 transition bg-nature-700 px-4 py-2 rounded-full hover:bg-nature-600 flex items-center gap-1">
-            <Search size={18} /> <span className="hidden md:inline">Identify</span>
+            <span className="hidden md:inline">Identify</span>
           </Link>
+          <Link to="/conservation" className="hover:text-nature-200 transition">
+            Conservation
+          </Link>
           <Link to="/about" className="hover:text-nature-200 transition">About Us</Link>
 
           {/* TOMBOL AUDIO PLAYER */}
@@ -491,13 +498,7 @@ const Footer = () => {
           {/* KOLOM 2: OUR PARTNERS (5 bagian) */}
           <div className="md:col-span-5 flex flex-col items-start md:items-end space-y-6">
             <h4 className="text-white font-bold text-xs uppercase tracking-[0.2em]">Our Partners</h4>
-            <div className="bg-white/5 p-5 md:p-6 rounded-[2.5rem] border border-white/10 backdrop-blur-md flex flex-row items-center gap-6 md:gap-10 shadow-xl">
-              <img src="/Logo-school.png" alt="School" className="h-10 md:h-12 w-auto object-contain brightness-110" />
-              <div className="w-px h-10 bg-white/20" />
-              <img src="/ISPO.png" alt="ISPO" className="h-14 md:h-20 w-auto object-contain brightness-110" />
-            </div>
-            
-            
+            <img src="/Logo-school.png" alt="School" className="h-10 md:h-12 w-auto object-contain brightness-110" />
           </div>
 
           {/* KOLOM 3: NAVIGATION (3 bagian) */}
@@ -507,6 +508,7 @@ const Footer = () => {
               <ul className="text-sm space-y-4 text-green-200/50">
                 <li><Link to="/" className="hover:text-emerald-400 transition-colors">Home</Link></li>
                 <li><Link to="/identify" className="hover:text-emerald-400 transition-colors">Identify</Link></li>
+                <li><Link to="/conservation" className="hover:text-emerald-400 transition-colors">Conservation</Link></li>
                 <li><Link to="/about" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
               </ul>
             </div>
@@ -590,7 +592,11 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/identify" element={<IdentificationPage />} />
-        <Route path="/about" element={<AboutPage />} /> {/* Tambahkan ini */}
+        <Route path="/conservation" element={<ConservationPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/endangered" element={<EndangeredPage />} />
+        <Route path="/habitat" element={<HabitatEcosystemPage />} />
+        <Route path="/biodiversitas" element={<BiodiversitasPage />} />
       </Routes>
     </main>
     <Footer />

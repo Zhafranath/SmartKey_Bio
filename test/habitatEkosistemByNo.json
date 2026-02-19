@@ -1,0 +1,408 @@
+habitatEkosistemByNo.json : 
+// Tambahan informasi habitat & ekosistem untuk setiap "no"
+export const habitatEkosistemByNo = {
+  "1": {
+    habitat: "Lowland and montane tropical rainforests and peat-swamp forests on Sumatra.",
+    ekosistem: "Terrestrial – tropical rainforest."
+  },
+  "2": {
+    habitat: "Open savannas, grasslands, and sparse woodlands in sub‑Saharan Africa and parts of India.",
+    ekosistem: "Terrestrial – savanna/grassland."
+  },
+  "3": {
+    habitat: "Human settlements: houses, cities, farms, and villages worldwide.",
+    ekosistem: "Terrestrial – urban and agricultural ecosystems."
+  },
+  "4": {
+    habitat: "Domesticated around human settlements, farms, and urban areas across the world.",
+    ekosistem: "Terrestrial – urban, rural, and agricultural ecosystems."
+  },
+  "5": {
+    habitat: "Tropical forests, grasslands, and scrublands of South and Southeast Asia, usually near water.",
+    ekosistem: "Terrestrial – tropical forest/grassland."
+  },
+  "6": {
+    habitat: "Lowland and hill tropical rainforests and peat‑swamp forests of Borneo; mostly in trees.",
+    ekosistem: "Terrestrial – tropical rainforest (arboreal)."
+  },
+  "7": {
+    habitat: "Found worldwide in almost all environments, especially urban and agricultural areas.",
+    ekosistem: "Terrestrial – strongly associated with human‑modified ecosystems."
+  },
+  "8": {
+    habitat: "Pastures, grasslands, and agricultural fields managed by humans.",
+    ekosistem: "Terrestrial – agricultural/grassland ecosystems."
+  },
+  "9": {
+    habitat: "Rocky hills, grasslands, shrublands, and farms; often kept around villages.",
+    ekosistem: "Terrestrial – agricultural and dry grassland ecosystems."
+  },
+  "10": {
+    habitat: "Open oceans and coastal waters worldwide, often in cold to temperate productive seas.",
+    ekosistem: "Marine – pelagic open‑ocean ecosystem."
+  },
+  "11": {
+    habitat: "Coastal waters, bays, estuaries, and offshore seas in warm and temperate regions.",
+    ekosistem: "Marine – coastal and pelagic ecosystems."
+  },
+  "12": {
+    habitat: "Grasslands, steppes, and farmlands where they are raised by humans.",
+    ekosistem: "Terrestrial – grassland and agricultural ecosystems."
+  },
+  "13": {
+    habitat: "Arctic sea ice, coastal shorelines, and nearby tundra regions.",
+    ekosistem: "Polar – sea‑ice and coastal marine ecosystems."
+  },
+  "14": {
+    habitat: "Open grasslands, shrublands, and semi‑arid plains of Australia.",
+    ekosistem: "Terrestrial – savanna and open shrubland."
+  },
+  "15": {
+    habitat: "Tropical forests, mangroves, orchards, and urban parks; roosts in trees or caves.",
+    ekosistem: "Terrestrial – tropical forest and urban garden ecosystems."
+  },
+  "16": {
+    habitat: "Villages, farms, and smallholdings where humans keep poultry.",
+    ekosistem: "Terrestrial – agricultural and peri‑urban ecosystems."
+  },
+  "17": {
+    habitat: "Mountain and lowland rainforests of Java, especially mature forest with tall trees.",
+    ekosistem: "Terrestrial – tropical rainforest (forest‑canopy predator)."
+  },
+  "18": {
+    habitat: "Urban areas, cliffs, buildings, and farmlands around the world.",
+    ekosistem: "Terrestrial – urban and agricultural ecosystems."
+  },
+  "19": {
+    habitat: "Antarctic pack ice and surrounding Southern Ocean waters.",
+    ekosistem: "Polar – marine and sea‑ice ecosystems."
+  },
+  "20": {
+    habitat: "Farmland, grasslands, open countryside, and buildings such as barns and warehouses.",
+    ekosistem: "Terrestrial – agricultural and rural ecosystems."
+  },
+  "21": {
+    habitat: "Lakes, ponds, rivers, marshes, and other wetlands in temperate regions.",
+    ekosistem: "Freshwater – wetland and shallow‑water ecosystems."
+  },
+  "22": {
+    habitat: "Open plains, semi‑deserts, and savannas of Africa.",
+    ekosistem: "Terrestrial – savanna and semi‑arid ecosystems."
+  },
+  "23": {
+    habitat: "Lowland rainforests of Papua (Raja Ampat), mainly in dense forest interior.",
+    ekosistem: "Terrestrial – tropical rainforest."
+  },
+  "24": {
+    habitat: "Mountains, forests, coastal cliffs, tundra, and open countryside in the Northern Hemisphere.",
+    ekosistem: "Terrestrial – forest, mountain, and open‑country ecosystems."
+  },
+  "25": {
+    habitat: "Large lakes, ponds, slow rivers, and park wetlands.",
+    ekosistem: "Freshwater – lake and wetland ecosystems."
+  },
+  "26": {
+    habitat: "Dry savannas, open woodlands, scrublands, and coastal hills on islands in Nusa Tenggara.",
+    ekosistem: "Terrestrial – tropical savanna and dry forest."
+  },
+  "27": {
+    habitat: "Estuaries, mangroves, river mouths, and coastal rivers; sometimes open sea.",
+    ekosistem: "Aquatic – estuarine, mangrove, and river ecosystems."
+  },
+  "28": {
+    habitat: "Tropical rainforests, plantations, bamboo thickets, and forest edges, often near water.",
+    ekosistem: "Terrestrial – tropical forest ecosystems."
+  },
+  "29": {
+    habitat: "Tropical and subtropical seas, especially coral reefs and seagrass beds; nests on sandy beaches.",
+    ekosistem: "Marine – coastal and coral‑reef ecosystems."
+  },
+  "30": {
+    habitat: "Bushes, shrubs, and trees in warm regions, forest edges, and gardens.",
+    ekosistem: "Terrestrial – shrubland and woodland ecosystems."
+  },
+  "31": {
+    habitat: "Tropical forests and river edges; mostly in trees near water.",
+    ekosistem: "Terrestrial – tropical forest (arboreal) ecosystems."
+  },
+  "32": {
+    habitat: "Tropical forests, tree trunks, and human buildings in Southeast Asia; active at night.",
+    ekosistem: "Terrestrial – tropical forest and urban ecosystems."
+  },
+  "33": {
+    habitat: "Rice fields, ponds, ditches, marshes, and brackish wetlands.",
+    ekosistem: "Freshwater – rice‑field and wetland ecosystems."
+  },
+  "34": {
+    habitat: "Gardens, urban areas, forest edges, and moist ground near water.",
+    ekosistem: "Terrestrial – garden, urban, and forest‑edge ecosystems."
+  },
+  "35": {
+    habitat: "High‑altitude lakes, canals, and wetlands in central Mexico (e.g., Xochimilco).",
+    ekosistem: "Freshwater – lake and canal ecosystems."
+  },
+  "36": {
+    habitat: "Humid deciduous and mixed forests in Europe, near clean streams and springs.",
+    ekosistem: "Terrestrial – temperate forest ecosystems."
+  },
+  "37": {
+    habitat: "Slow‑moving rivers, ponds, lakes, and man‑made fish ponds.",
+    ekosistem: "Freshwater – river and pond ecosystems."
+  },
+  "38": {
+    habitat: "Coastal seas and open oceans, often near islands, reefs, and productive temperate waters.",
+    ekosistem: "Marine – coastal and pelagic ecosystems."
+  },
+  "39": {
+    habitat: "Rice fields, ponds, canals, swamps, and muddy ditches with low oxygen.",
+    ekosistem: "Freshwater – wetland and rice‑field ecosystems."
+  },
+  "40": {
+    habitat: "Warm shallow seas on coral reefs where sea anemones are abundant.",
+    ekosistem: "Marine – coral‑reef ecosystems."
+  },
+  "41": {
+    habitat: "Shallow coastal waters, seagrass beds, mangroves, and coral reefs.",
+    ekosistem: "Marine – seagrass, mangrove, and reef ecosystems."
+  },
+  "42": {
+    habitat: "Shallow ponds, rice paddies, ditches, and slow‑moving streams in Southeast Asia.",
+    ekosistem: "Freshwater – rice‑field and pond ecosystems."
+  },
+  "43": {
+    habitat: "Meadows, fields, gardens, and forest edges with abundant flowering plants.",
+    ekosistem: "Terrestrial – meadow/grassland and garden ecosystems."
+  },
+  "44": {
+    habitat: "Flower‑rich areas: orchards, fields, gardens, and forest edges; nests in hives or tree cavities.",
+    ekosistem: "Terrestrial – agricultural, garden, and forest ecosystems."
+  },
+  "45": {
+    habitat: "Urban and suburban areas; breeds in small pools of stagnant water around houses.",
+    ekosistem: "Terrestrial – urban ecosystems (closely tied to human habitation)."
+  },
+  "46": {
+    habitat: "Gardens, forests, lawns, and open soil where they build nests.",
+    ekosistem: "Terrestrial – soil and leaf‑litter ecosystems."
+  },
+  "47": {
+    habitat: "Dry, sheltered places such as woodpiles, sheds, rocks, and building corners.",
+    ekosistem: "Terrestrial – ground and human‑built structures."
+  },
+  "48": {
+    habitat: "Tropical forests, under rocks, logs, and leaf litter; sometimes plantations and gardens.",
+    ekosistem: "Terrestrial – forest floor ecosystems."
+  },
+  "49": {
+    habitat: "Rocky seabeds, coral reefs, and seagrass beds in shallow coastal waters.",
+    ekosistem: "Marine – benthic coastal ecosystems."
+  },
+  "50": {
+    habitat: "Moist soil in gardens, fields, forests, and compost‑rich ground.",
+    ekosistem: "Terrestrial – soil ecosystem (detritus‑based)."
+  },
+  "51": {
+    habitat: "Irrigated paddy fields and lowland wet agricultural land.",
+    ekosistem: "Freshwater – rice‑field agroecosystem."
+  },
+  "52": {
+    habitat: "Dry to moderately moist fields, plantations, and small farms.",
+    ekosistem: "Terrestrial – agricultural (cornfield) ecosystems."
+  },
+  "53": {
+    habitat: "Coastal areas, sandy soils, and lowland tropics; often near beaches and villages.",
+    ekosistem: "Terrestrial – coastal and agroforestry ecosystems."
+  },
+  "54": {
+    habitat: "Humid tropical lowlands, plantations, and home gardens.",
+    ekosistem: "Terrestrial – agroforestry and garden ecosystems."
+  },
+  "55": {
+    habitat: "Tropical and subtropical orchards, home gardens, and dry to moist lowlands.",
+    ekosistem: "Terrestrial – orchard/agroforestry ecosystems."
+  },
+  "56": {
+    habitat: "Lowland tropical rainforests and mixed fruit gardens in Southeast Asia.",
+    ekosistem: "Terrestrial – tropical rainforest and agroforestry ecosystems."
+  },
+  "57": {
+    habitat: "Warm lowland gardens, plantations, and village yards.",
+    ekosistem: "Terrestrial – agricultural and home‑garden ecosystems."
+  },
+  "58": {
+    habitat: "Gardens, parks, and ornamental beds, often in temperate or highland tropical areas.",
+    ekosistem: "Terrestrial – ornamental garden ecosystems."
+  },
+  "59": {
+    habitat: "Home gardens, fences, and pots in warm tropical climates.",
+    ekosistem: "Terrestrial – garden and hedge ecosystems."
+  },
+  "60": {
+    habitat: "Moist tropical forests as an epiphyte on tree trunks and branches; also cultivated in shade houses.",
+    ekosistem: "Terrestrial – epiphytic component of tropical forest ecosystems."
+  },
+  "61": {
+    habitat: "Dry upland fields, marginal lands, and small farms in the tropics.",
+    ekosistem: "Terrestrial – agricultural (dry‑field) ecosystems."
+  },
+  "62": {
+    habitat: "Roadsides, hedges, and house gardens in warm climates.",
+    ekosistem: "Terrestrial – ornamental shrub and hedge ecosystems."
+  },
+  "63": {
+    habitat: "Open fields, grasslands, roadsides, and disturbed soils; often as a weed.",
+    ekosistem: "Terrestrial – grassland and disturbed‑soil ecosystems."
+  },
+  "64": {
+    habitat: "Hillsides, riverbanks, forest edges, and village groves in the tropics.",
+    ekosistem: "Terrestrial – bamboo thickets and secondary forest ecosystems."
+  },
+  "65": {
+    habitat: "Vegetable gardens and smallholder farms in warm, sunny areas.",
+    ekosistem: "Terrestrial – agricultural (vegetable‑field) ecosystems."
+  },
+  "66": {
+    habitat: "Home gardens, greenhouses, and vegetable fields.",
+    ekosistem: "Terrestrial – agricultural and garden ecosystems."
+  },
+  "67": {
+    habitat: "Home gardens, orchards, and small farms in tropical and subtropical regions.",
+    ekosistem: "Terrestrial – orchard and garden ecosystems."
+  },
+  "68": {
+    habitat: "Open fields, farms, and ornamental gardens exposed to full sun.",
+    ekosistem: "Terrestrial – agricultural and meadow‑like ecosystems."
+  },
+  "69": {
+    habitat: "Humid tropical gardens, mixed cropping systems, and shaded plantations.",
+    ekosistem: "Terrestrial – agroforestry and garden ecosystems."
+  },
+  "70": {
+    habitat: "Warm, moist gardens and smallholder fields, often in partially shaded areas.",
+    ekosistem: "Terrestrial – agroforestry and garden ecosystems."
+  },
+  "71": {
+    habitat: "Dry, sandy soils, pots, and gardens in warm climates.",
+    ekosistem: "Terrestrial – xeric (dry) garden ecosystems."
+  },
+  "72": {
+    habitat: "Arid and semi‑arid regions, rocky slopes, and dry gardens.",
+    ekosistem: "Terrestrial – desert and dry scrub ecosystems."
+  },
+  "73": {
+    habitat: "Seasonally dry monsoon forests and large plantations in tropical regions.",
+    ekosistem: "Terrestrial – tropical deciduous forest and plantation ecosystems."
+  },
+  "74": {
+    habitat: "Tropical forests, urban parks, and roadsides where it is planted as a shade tree.",
+    ekosistem: "Terrestrial – forest and urban‑green ecosystems."
+  },
+  "75": {
+    habitat: "Humid lowland tropics, mixed fruit gardens, and swampy or moist soils.",
+    ekosistem: "Terrestrial – tropical agroforestry ecosystems."
+  },
+  "76": {
+    habitat: "Tropical fields and plantations, usually in sunny, well‑drained sites.",
+    ekosistem: "Terrestrial – agricultural (plantation) ecosystems."
+  },
+  "77": {
+    habitat: "Warm, sunny fields and gardens with trailing vines on the ground.",
+    ekosistem: "Terrestrial – agricultural and garden ecosystems."
+  },
+  "78": {
+    habitat: "Shallow water bodies, canals, rice fields, and wet soils.",
+    ekosistem: "Freshwater – aquatic and wetland agroecosystems."
+  },
+  "79": {
+    habitat: "Vegetable gardens and small fields in warm regions.",
+    ekosistem: "Terrestrial – agricultural (leafy‑vegetable) ecosystems."
+  },
+  "80": {
+    habitat: "Cool, humid tropical highlands, often under shade trees in plantations.",
+    ekosistem: "Terrestrial – highland agroforestry ecosystems."
+  },
+  "81": {
+    habitat: "Cool, rainy highland regions cultivated as tea estates on hillsides.",
+    ekosistem: "Terrestrial – highland plantation ecosystems."
+  },
+  "82": {
+    habitat: "Shaded lowland tropical forests and plantations under canopy trees.",
+    ekosistem: "Terrestrial – tropical agroforestry ecosystems."
+  },
+  "83": {
+    habitat: "Lowland tropical plantations on deep, moist soils.",
+    ekosistem: "Terrestrial – large‑scale plantation ecosystems."
+  },
+  "84": {
+    habitat: "Lowland moist tropical regions and plantations arranged in rows.",
+    ekosistem: "Terrestrial – tropical plantation and agroforestry ecosystems."
+  },
+  "85": {
+    habitat: "Floor of primary and secondary tropical rainforests, parasitizing lianas (Tetrastigma).",
+    ekosistem: "Terrestrial – tropical rainforest (parasitic plant component)."
+  },
+  "86": {
+    habitat: "Nutrient‑poor soils in peat swamps, heath forests, and open, wet, sunny sites.",
+    ekosistem: "Terrestrial – wetland/acidic forest ecosystems."
+  },
+  "87": {
+    habitat: "Still or slow‑moving freshwater bodies like ponds, lakes, and temple pools.",
+    ekosistem: "Freshwater – aquatic (floating‑leaf) ecosystems."
+  },
+  "88": {
+    habitat: "Dry vegetable fields and upland farms; also home gardens.",
+    ekosistem: "Terrestrial – agricultural (bulb‑crop) ecosystems."
+  },
+  "89": {
+    habitat: "Cooler vegetable‑growing fields and home gardens.",
+    ekosistem: "Terrestrial – agricultural (bulb‑crop) ecosystems."
+  },
+  "90": {
+    habitat: "Humid tropical lowlands where it is grown on trellises or supporting trees.",
+    ekosistem: "Terrestrial – agroforestry and spice‑garden ecosystems."
+  },
+  "91": {
+    habitat: "Cool temperate or tropical highland vegetable fields.",
+    ekosistem: "Terrestrial – agricultural (root‑crop) ecosystems."
+  },
+  "92": {
+    habitat: "Cool climates and highland farms where potatoes are cultivated.",
+    ekosistem: "Terrestrial – agricultural (tuber‑crop) ecosystems."
+  },
+  "93": {
+    habitat: "Humid tropical home gardens and hedges; climbs on trees or supports.",
+    ekosistem: "Terrestrial – agroforestry and home‑garden ecosystems."
+  },
+  "94": {
+    habitat: "Tropical coastal and hilly areas in plantations and mixed spice gardens.",
+    ekosistem: "Terrestrial – agroforestry and plantation ecosystems."
+  },
+  "95": {
+    habitat: "Warm lowland fields and plantations, often near irrigation sources.",
+    ekosistem: "Terrestrial – agricultural (sugarcane field) ecosystems."
+  },
+  "96": {
+    habitat: "Dry to moderately moist gardens, cemeteries, and temple yards in the tropics.",
+    ekosistem: "Terrestrial – ornamental garden and urban‑green ecosystems."
+  },
+  "97": {
+    habitat: "Tropical home gardens and orchards with well‑drained soils.",
+    ekosistem: "Terrestrial – orchard and garden ecosystems."
+  },
+  "98": {
+    habitat: "Sunny gardens, walls, and roadside plantings in warm climates.",
+    ekosistem: "Terrestrial – ornamental hedge and garden ecosystems."
+  },
+  "99": {
+    habitat: "Tropical and subtropical orchards, often in mid‑elevation or highland areas.",
+    ekosistem: "Terrestrial – orchard and agroforestry ecosystems."
+  },
+  "100": {
+    habitat: "Tropical home gardens and mixed agroforestry plots in Southeast Asia.",
+    ekosistem: "Terrestrial – agroforestry and home‑garden ecosystems."
+  },
+  "101": {
+    habitat: "Tropical home gardens and mixed agroforestry plots in Southeast Asia.",
+    ekosistem: "Terrestrial – agroforestry and home‑garden ecosystems."
+  }
+};

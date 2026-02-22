@@ -116,14 +116,27 @@ const HomePage = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
+         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* Start Identification */}
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 to="/identify"
-                className="group relative px-10 py-5 bg-slate-900 text-white rounded-2xl font-bold text-xl shadow-2xl shadow-slate-900/20 hover:bg-emerald-600 transition-all duration-300 flex items-center justify-center gap-4 overflow-hidden"
+                className="group relative px-10 py-5 bg-slate-900 text-white rounded-2xl font-bold text-xl shadow-2xl shadow-slate-900/20 hover:bg-emerald-600 transition-all duration-300 flex items-center justify-center gap-4 overflow-hidden min-w-[260px]"
               >
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-400/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-                <span className="relative z-10">Start Identification</span>
+                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-400/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                <span className="relative z-10">Identification</span>
+                <ArrowRight className="relative z-10 group-hover:translate-x-2 transition-transform duration-300" />
+              </Link>
+            </motion.div>
+
+            {/* Classification from Image */}
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Link
+                to="/classification"
+                className="group relative px-10 py-5 bg-slate-900 text-white rounded-2xl font-bold text-xl shadow-2xl shadow-slate-900/20 hover:bg-emerald-600 transition-all duration-300 flex items-center justify-center gap-4 overflow-hidden min-w-[260px]"
+              >
+                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-400/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                <span className="relative z-10">Classification</span>
                 <ArrowRight className="relative z-10 group-hover:translate-x-2 transition-transform duration-300" />
               </Link>
             </motion.div>
@@ -173,7 +186,7 @@ const HomePage = () => {
                      </div>
                    ))}
                  </div>
-                 <span className="text-slate-500 text-sm font-medium">+10K Species</span>
+                 <span className="text-slate-500 text-sm font-medium">+100 Species</span>
               </div>
             </div>
           </div>

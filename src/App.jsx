@@ -21,6 +21,7 @@ import ConservationPage from './pages/ConservationPage';
 import EndangeredPage from "./pages/EndangeredPage";
 import HabitatEcosystemPage from "./pages/HabitatPage";
 import BiodiversitasPage from './pages/BiodiversitasPage';
+import ClassificationPage from "./pages/ClassificationPage";
 
 const levelOrder = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species'];
 const normalize = (str) => str.toLowerCase().replace(/\s+/g, "_");
@@ -498,7 +499,7 @@ const Footer = () => {
           {/* KOLOM 2: OUR PARTNERS (5 bagian) */}
           <div className="md:col-span-5 flex flex-col items-start md:items-end space-y-6">
             <h4 className="text-white font-bold text-xs uppercase tracking-[0.2em]">Our Partners</h4>
-            <img src="/Logo-school.png" alt="School" className="h-10 md:h-12 w-auto object-contain brightness-110" />
+            <img src="/Logo-school.png" alt="School" className="h-10 md:h-12 w-auto object-contain brightness-110" />           
           </div>
 
           {/* KOLOM 3: NAVIGATION (3 bagian) */}
@@ -593,6 +594,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/identify" element={<IdentificationPage />} />
         <Route path="/conservation" element={<ConservationPage />} />
+        <Route path="/classification" element={<ClassificationPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/endangered" element={<EndangeredPage />} />
         <Route path="/habitat" element={<HabitatEcosystemPage />} />
